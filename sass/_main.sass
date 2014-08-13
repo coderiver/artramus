@@ -1,6 +1,54 @@
 // Normally mainpage styles
+html,body
+	height: 100%
+	position: relative 
+	background: #000000 
+.out
+	margin: 0 auto
+	width: 1024px  
+	height: 615px 
+	position: absolute
+	top: 50%
+	left: 50% 
+	margin-top: -308px 
+	margin-left: -512px 
+	h1
+		+hide-text
+		+png(logo)
 
-
+.info
+	width: 100%
+	position: absolute
+	bottom: 0
+	left: 0
+	font-size: 18px 
+	color: #808080 
+	text-transform: uppercase
+	a
+		text-decoration: none
+		color: #808080 
+	.info__item
+		display: inline-block
+		vertical-align: middle
+	.info__in
+		+s(icon1)
+		display: inline-block
+		vertical-align: middle
+	.info__fb
+		+s(icon2)
+		display: inline-block
+		vertical-align: middle
+		margin-left: 12px 
+		margin-right: 15px 
+		
+.sep
+	height: 38px 
+	width: 1px 
+	border-left: 1px solid #808080 
+	display: inline-block
+	vertical-align: middle
+	margin: 0 18px
+	
 
 
 

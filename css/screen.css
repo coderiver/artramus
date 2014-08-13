@@ -24,3 +24,16 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
+
+html, body { height: 100%; position: relative; background: black; }
+
+.out { margin: 0 auto; width: 1024px; height: 615px; position: absolute; top: 50%; left: 50%; margin-top: -308px; margin-left: -512px; }
+.out h1 { font: 0/0 a; text-shadow: none; color: transparent; background: url("../img/logo.png") no-repeat 0 0; width: 1024px; height: 489px; }
+
+.info { width: 100%; position: absolute; bottom: 0; left: 0; font-size: 18px; color: gray; text-transform: uppercase; }
+.info a { text-decoration: none; color: gray; }
+.info .info__item { display: inline-block; vertical-align: middle; }
+.info .info__in { background: url('../img/icons-see1e9d75a6.png') 0 0 no-repeat; width: 66px; height: 65px; display: inline-block; vertical-align: middle; }
+.info .info__fb { background: url('../img/icons-see1e9d75a6.png') 0 -75px no-repeat; width: 63px; height: 64px; display: inline-block; vertical-align: middle; margin-left: 12px; margin-right: 15px; }
+
+.sep { height: 38px; width: 1px; border-left: 1px solid gray; display: inline-block; vertical-align: middle; margin: 0 18px; }
